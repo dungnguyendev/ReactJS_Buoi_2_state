@@ -1,0 +1,70 @@
+
+.backgr{
+    width: 100%;
+    height: 959px;
+    background-image: url("./../../public/img/background.jpg");
+    background-size: cover;
+    
+}
+.gr__{
+    position: relative;
+    height: 500px;
+}
+.img1{
+    width: 25%;
+    position: absolute;
+    opacity: 0;
+}
+.box__top{
+    width: 14%;
+    margin: 97px 0px 0px 73px;
+    opacity: .7;
+    position: absolute;
+}
+.box_123{
+    margin-top: 283px;
+}
+.box__bottom{
+    z-index: 10;
+    position: absolute;
+    height: 120px;
+    width: 25%;
+    padding: 0px 10px;
+}
+.box_br{
+    width: 25%;
+    background: #f4923c;
+    opacity: 0;
+    height: 120px;
+    z-index: 1;
+    position: absolute;
+
+}
+.text1{
+    color: #cb34ce;
+    margin: 5px 0px 10px 0px;
+}
+.text2{
+    color: #fff;
+}
+.box__stage{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    background: #fff;
+    justify-items: center;
+}
+.gr_box{
+    padding: 10px;
+    width: 150px;
+    height: 80px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.gr_box:hover{
+    box-shadow: 0 10px 10px #ca31c0;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
